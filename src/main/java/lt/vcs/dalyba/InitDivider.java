@@ -12,6 +12,7 @@ public class InitDivider {
         } else if (antrasSkaicius == 0) {
             throw new ArgumentisZeroException("ANTRAS");
         }
+
         return pirmasSkaicius / antrasSkaicius;
 
     }
